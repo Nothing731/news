@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav .title a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+
+.header__nav .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.speres {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.speres a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #3a3838;
+    transition: .3s;
+}
+
+.speres a:hover {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #ef4423;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .first {
+    background: #B71C1C;
+}
+
+.cards .second {
+    background: #6A1B9A;
+}
+
+.cards .third {
+    background: #303F9F;
+}
+
+.cards .fourth {
+    background: #00695C;
+}
+
+.card h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #fff;
+    padding: 15px 15px 9px 15px;
+}
+
+.card p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ebebeb;
+    padding: 0 15px 7px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main .second .container {
+    background: #EDEDED;
+    width: 100%;
+}
+
+.second .container1 {
+    width: 100%;
+    margin: auto;
+    padding: 0px 145px 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    background: #EDEDED;
+    height: max-content;
+    margin-bottom: 50px;
+}
+
+.container1 img {
+    height: 100%;
+}
+
+.text h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3a3838;
+    padding-bottom: 30px;
+    text-align: left;
+    max-width: 450px;
+}
+
+.text p {
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #686868;
+    text-align: left;
+    max-width: 560px;
+}
+.text{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 700px;
+}
+.footer{
+    background: #3A3838;
+    padding: 29px 0;
+}
+.footer .title a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+.speres a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #fff;
+    transition: .3s;
+}
+
+.speres a:hover {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #ef4423;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
